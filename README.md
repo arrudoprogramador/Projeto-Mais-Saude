@@ -8,7 +8,7 @@ O projeto simula operações comuns de um sistema real, como autenticação de u
 ## ⚙️ Tecnologias
 
 - Backend: PHP + Laravel
-- Frontend: HTML5 + CSS3
+- Frontend: JS + React Native + API REST
 - Banco de dados: MySQL
 
 ---
@@ -35,14 +35,10 @@ npm start
 ```
 ---
 
-💡 Sobre o projeto
-
-Este projeto foi desenvolvido com foco em:
+💡 Este projeto foi desenvolvido com foco em:
 
 Organização de código com Laravel (MVC)
 Criação de API REST
 Separação entre backend e frontend
 Simulação de regras básicas de negócio
-🎯 Objetivo
 
-Praticar desenvolvimento backend com Laravel e integração com aplicação cliente.
