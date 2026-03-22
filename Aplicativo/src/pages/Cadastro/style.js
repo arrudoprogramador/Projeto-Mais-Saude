@@ -1,0 +1,158 @@
+import { StyleSheet, Platform } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  cabecalho: {
+    paddingTop: Platform.OS === 'ios' ? 60 : 40,
+    paddingBottom: 30,
+  },
+  fotoContainer: {
+    alignItems: 'center',
+  },
+  fotoPerfil: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    borderWidth: 3,
+    borderColor: '#fff',
+  },
+  fotoPlaceholder: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    backgroundColor: '#f0f0f0',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#ddd',
+    borderStyle: 'dashed',
+  },
+  botaoFoto: {
+    marginTop: 15,
+    paddingVertical: 8,
+    paddingHorizontal: 20,
+    backgroundColor: 'rgba(255,255,255,0.9)',
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#4C9BE5',
+  },
+  botaoFotoTexto: {
+    color: '#4C9BE5',
+    fontWeight: '600',
+    fontSize: 14,
+  },
+  content: {
+    flex: 1,
+    padding: 25,
+    paddingTop: 30,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 30,
+    textAlign: 'center',
+  },
+  input: {
+    backgroundColor: '#f8f8f8',
+    padding: Platform.OS === 'ios' ? 16 : 14,
+    borderRadius: 12,
+    marginBottom: 16,
+    borderWidth: 1,
+    borderColor: '#e1e1e1',
+    fontSize: 16,
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  inputHalf: {
+    width: '48%',
+  },
+  buttons: {
+    padding: 25,
+    paddingTop: 10,
+  },
+  button: {
+    backgroundColor: '#4C9BE5',
+    padding: 16,
+    borderRadius: 12,
+    alignItems: 'center',
+    marginBottom: 15,
+    shadowColor: '#4C9BE5',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 3,
+  },
+  buttonDisabled: {
+    backgroundColor: '#a0c8f0',
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  linkButton: {
+    alignItems: 'center',
+    padding: 10,
+  },
+  linkButtonText: {
+    color: '#666',
+    fontSize: 16,
+  },
+  linkText: {
+    color: '#4C9BE5',
+    fontWeight: '600',
+  },
+  modalOverlay: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  modalContent: {
+    width: '80%',
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    padding: 25,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 10,
+    elevation: 5,
+  },
+  modalText: {
+    fontSize: 17,
+    marginBottom: 20,
+    textAlign: 'center',
+    lineHeight: 22,
+    color: '#333',
+  },
+  modalButton: {
+    backgroundColor: '#4C9BE5',
+    paddingVertical: 12,
+    paddingHorizontal: 30,
+    borderRadius: 10,
+  },
+  modalButtonText: {
+    color: '#fff',
+    fontWeight: '600',
+    fontSize: 16,
+  },
+  debugButton: {
+  marginTop: 10,
+  padding: 8,
+  backgroundColor: 'rgba(255,255,255,0.3)',
+  borderRadius: 10,
+},
+debugButtonText: {
+  color: '#fff',
+  fontSize: 12,
+  fontWeight: '600',
+},
+});
