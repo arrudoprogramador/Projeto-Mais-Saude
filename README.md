@@ -31,7 +31,7 @@ Frontend
 
 ```bash
 npm install
-npm start
+npx expo start
 ```
 ---
 
