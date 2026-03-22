@@ -21,16 +21,3 @@ Autenticação com Token (ex: JWT)
 Validação de requisições
 Organização em camadas (separação de responsabilidades)
 Manipulação de dados e regras de negócio
-
-▶️ Como executar o projeto
-# Clonar o repositório
-git clone https://github.com/arrudoprogramador/appMaisSaude.git
-
-# Acessar a pasta
-cd appMaisSaude
-
-# Instalar dependências
-npm install  # ou conforme a tecnologia utilizada
-
-# Executar o projeto (de preferência no seu aparelho)
-npx epo start  # ou comando equivalente
