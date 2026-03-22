@@ -38,7 +38,10 @@ npx expo start
 💡 Este projeto foi desenvolvido com foco em:
 
 Organização de código com Laravel (MVC)
+
 Criação de API REST
+
 Separação entre backend e frontend
+
 Simulação de regras básicas de negócio
 
