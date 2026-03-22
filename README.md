@@ -1,26 +1,15 @@
 # 🏥 Projeto Mais Saúde
 
 Aplicação de gestão de serviços de saúde composta por um backend em Laravel e uma aplicação cliente.
-
 O projeto simula operações comuns de um sistema real, como autenticação de usuários e manipulação de dados via API.
-
----
-
-## 📌 Estrutura
-
-
-Projeto-Mais-Saude/
-├── backend/ # API em Laravel
-├── frontend/ # Aplicação cliente
-
 
 ---
 
 ## ⚙️ Tecnologias
 
 - Backend: PHP + Laravel
-- Frontend: (preencher com o que você usou)
-- Banco de dados: (MySQL, SQLite, etc.)
+- Frontend: HTML5 + CSS3
+- Banco de dados: MySQL
 
 ---
 
@@ -35,10 +24,19 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
+```
+
+---
+
 Frontend
+
+```bash
 cd frontend
 npm install
 npm start
+```
+---
+
 💡 Sobre o projeto
 
 Este projeto foi desenvolvido com foco em:
