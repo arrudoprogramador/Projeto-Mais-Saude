@@ -18,7 +18,6 @@ O projeto simula operações comuns de um sistema real, como autenticação de u
 ### Backend
 
 ```bash
-cd backend
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -31,7 +30,6 @@ php artisan serve
 Frontend
 
 ```bash
-cd frontend
 npm install
 npm start
 ```
