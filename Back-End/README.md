@@ -23,7 +23,7 @@ API desenvolvida com Laravel responsável pelas regras de negócio e manipulaç�
 ---
 
 ## ▶️ Como executar
-
+```bash
 composer install
 cp .env.example .env
 php artisan key:generate
